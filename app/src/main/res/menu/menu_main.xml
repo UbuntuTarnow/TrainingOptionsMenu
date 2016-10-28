@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.romanescotech.trainingoptionsmenu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="20"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_capture"
+        android:orderInCategory="100"
+        android:title="@string/action_capture"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="200"
+        android:title="@string/action_profile"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="50"
+        android:title="@string/action_about"
+        app:showAsAction="never"/>
+</menu>
